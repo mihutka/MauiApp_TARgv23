@@ -11,23 +11,22 @@ public partial class TextPage : ContentPage
     List<string> buttons = new List<string> { "Tagasi", "Avaleht", "Edasi" };
     public TextPage()
 	{
-        lbl = new Label()
+        lbl = new Label();
+        editor = new Editor();
+        hsl = new HorizontalStackLayout { };
+        for (int i = 0; i < 3; i++)
         {
-            Text = "Pealkiri",
-            TextColor = Color.FromRgb(200, 0, 0),
-            FontFamily = "Socafe 400",
-        };
-        editor = new Editor
-        {
-            Placeholder = "Vihje:Sisesta siia tekst",
-            PlaceholderColor = Color.FromRgb(50, 100, 100),
-            TextColor = Color.FromRgb(200, 0, 0),
-            BackgroundColor = Color.FromRgb(10, 100, 200)
-        };
+            Button b = new Button
+            {
+                Text = buttons[i],
+            };
+            hsl.Add(b);
+        }
         VerticalStackLayout vst = new VerticalStackLayout
         {
             Children = { lbl, editor, hsl }
         };
+        Content = vst;
 
 		
 	}
