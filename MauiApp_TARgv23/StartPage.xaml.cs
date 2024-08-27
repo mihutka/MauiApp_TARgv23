@@ -4,8 +4,6 @@ public partial class StartPage : ContentPage
 {
     List<ContentPage> lehed = new List<ContentPage>() { new TextPage(), new FigurePage() };
     List<string> tekstid = new List<string>() { "Tee lahti TextPage", "Tee lahti FigurePage" };
-    List<ContentPage> figure = new List<ContentPage>() { new LeftButton(), new MiddleButton(), new RightButton };
-    List<string> figure = new List<string>() { "<-", "H", "->" };
     ScrollView sv;
     VerticalStackLayout vst;
     public StartPage()

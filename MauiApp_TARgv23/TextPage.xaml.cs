@@ -7,6 +7,8 @@ public partial class TextPage : ContentPage
     Label lbl;
     Editor editor;
     Button btn_tagasi, btn_edasi, btn_algus;
+    HorizontalStackLayout hsl;
+    List<string> buttons = new List<string> { "Tagasi", "Avaleht", "Edasi" };
     public TextPage()
 	{
         lbl = new Label()
@@ -24,7 +26,7 @@ public partial class TextPage : ContentPage
         };
         VerticalStackLayout vst = new VerticalStackLayout
         {
-            Children = { lbl, editor, btn }
+            Children = { lbl, editor, hsl }
         };
 
 		
