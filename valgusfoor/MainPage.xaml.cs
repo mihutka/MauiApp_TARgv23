@@ -6,7 +6,6 @@ namespace valgusfoor
     {
         
         List<BoxView> boxViews = new List<BoxView>();
-        HorizontalStackLayout hsl;
         List<string> buttons = new List<string> { "Sisse", "Välja"};
         public Label label, label2;
         
@@ -63,8 +62,7 @@ namespace valgusfoor
             {
                 Button c = new Button
                 {
-                    Text = buttons[i],
-                    ZIndex = i, 
+                    Text = buttons[i], 
                     WidthRequest = DeviceDisplay.Current.MainDisplayInfo.Width / 8, 
                     VerticalOptions = LayoutOptions.End 
                 };
