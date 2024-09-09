@@ -5,7 +5,13 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiApp_TARgv23", "MauiApp_TARgv23\MauiApp_TARgv23.csproj", "{21B23BE8-C96F-4DA5-97EB-1E5F8EEAC2C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "valgusfoor", "valgusfoor\valgusfoor.csproj", "{FC22C18D-6B95-459E-9FD2-1D492378CFE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "valgusfoor", "valgusfoor\valgusfoor.csproj", "{FC22C18D-6B95-459E-9FD2-1D492378CFE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "metod", "metod\metod.csproj", "{B24482A6-4B84-47B8-8602-3CED53576F3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class", "Class\Class.csproj", "{7DA0EA0A-0568-4ED2-88A8-60AEFA0E3D51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson", "Lesson\Lesson.csproj", "{961D8F29-EA39-4145-A326-CBCAA3813C15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +31,18 @@ Global
 		{FC22C18D-6B95-459E-9FD2-1D492378CFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC22C18D-6B95-459E-9FD2-1D492378CFE9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FC22C18D-6B95-459E-9FD2-1D492378CFE9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B24482A6-4B84-47B8-8602-3CED53576F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24482A6-4B84-47B8-8602-3CED53576F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24482A6-4B84-47B8-8602-3CED53576F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24482A6-4B84-47B8-8602-3CED53576F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DA0EA0A-0568-4ED2-88A8-60AEFA0E3D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA0EA0A-0568-4ED2-88A8-60AEFA0E3D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA0EA0A-0568-4ED2-88A8-60AEFA0E3D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA0EA0A-0568-4ED2-88A8-60AEFA0E3D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{961D8F29-EA39-4145-A326-CBCAA3813C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961D8F29-EA39-4145-A326-CBCAA3813C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961D8F29-EA39-4145-A326-CBCAA3813C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961D8F29-EA39-4145-A326-CBCAA3813C15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

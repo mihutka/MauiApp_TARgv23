@@ -6,6 +6,7 @@ public partial class StartPage : ContentPage
     List<string> tekstid = new List<string>() { "Tee lahti TextPage", "Tee lahti FigurePage" };
     ScrollView sv;
     VerticalStackLayout vst;
+    int number = 0;
     public StartPage()
     {
         //InitializeComponent();
@@ -30,7 +31,6 @@ public partial class StartPage : ContentPage
 
     private async void Nupp_Clicked(object sender, EventArgs e)
     {
-        Button btn = (Button)sender; //sender as Button
-        await Navigation.PushAsync(lehed[btn.ZIndex]);
+        number ++;
     }
 }

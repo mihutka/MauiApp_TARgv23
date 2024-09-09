@@ -8,7 +8,7 @@
     Title="valgusfoor">
 
     <ShellContent
-        Title="Home"
+        Title="Valgusfoor"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
